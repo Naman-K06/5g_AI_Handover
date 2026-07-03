@@ -1,0 +1,23 @@
+# Ignore virtual environment
+.venv/
+cache/
+.vscode/
+Backup/
+data/
+plots/
+Scripts/
+share/
+pyvenv.cfg
+
+# Ignore everything inside outputs
+outputs/*
+
+# Except new_routes
+!outputs/new_routes/
+!outputs/new_routes/**
+
+# Keep these folders
+!src/
+!src/**
+!Project Docs/
+!Project Docs/**

@@ -1,0 +1,5 @@
+Metric,Mean_Baseline,Mean_AI,Change_pct,p_value,Significant
+Handovers,9.69,4.76,-50.9,0.0,✓
+Ping-Pong,0.42,0.04,-90.5,1e-05,✓
+HOF,0.38,0.9,136.8,0.00075,✓
+RLF,0.08,0.87,987.5,0.0,✓

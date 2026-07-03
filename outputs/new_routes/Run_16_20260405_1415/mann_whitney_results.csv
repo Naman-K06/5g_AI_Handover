@@ -1,0 +1,5 @@
+KPI,U_Stat,p_value,Rank_Biserial_r,Effect_Size,Significance
+Handovers,9245.0,2.096849147769283e-25,-0.849,large,***
+Ping-Pong,6362.0,4.6215326660407826e-07,-0.2724,small,***
+HOF,4645.5,0.3127738878567635,0.07089999999999996,negligible,ns
+RLF,2552.5,3.021065063726044e-12,0.48950000000000005,medium,***

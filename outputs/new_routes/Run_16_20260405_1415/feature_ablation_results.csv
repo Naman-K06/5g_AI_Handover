@@ -1,0 +1,10 @@
+Model,Description,Components,Num_Features,Test_Accuracy,Test_F1_Weighted,Test_F1_Macro,Train_Accuracy,Overfit_Ratio,Train_Samples,Test_Samples,Expected_Rank
+SPEED_ONLY,Speed only (no signal metrics),Speed,1,1.0,1.0,1.0,1.0,0.0,16000,4000,7
+FULL,RSRP + SINR + Speed (Complete Model),"RSRP, SINR, Speed",2300,0.8297,0.8208,0.7358,0.9904,0.1607,16000,4000,1
+BEST_RSRP_ONLY,Best RSRP + Speed (single dominant feature),"BestRSRP, Speed",2,0.7682,0.7704,0.7568,0.8987,0.1304,16000,4000,6
+BEST_SINR_ONLY,Best SINR + Speed (single dominant feature),"BestSINR, Speed",2,0.7572,0.761,0.7621,0.8948,0.1375,16000,4000,6
+RSRP_ONLY,RSRP + Speed (without SINR),"RSRP, Speed",58,0.7165,0.7061,0.627,0.9829,0.2664,16000,4000,3
+RSRP_NO_SPEED,RSRP only (no speed context),RSRP,57,0.6348,0.6073,0.4455,0.9847,0.3499,16000,4000,5
+SINR_RSRP_NO_SPEED,SINR + RSRP (no speed context),"SINR, RSRP",114,0.5952,0.5621,0.3907,0.9832,0.3879,16000,4000,2
+SINR_ONLY,SINR + Speed (without RSRP),"SINR, Speed",58,0.4823,0.4576,0.3433,0.7157,0.2334,16000,4000,2
+SINR_NO_SPEED,SINR only (no speed context),SINR,57,0.3508,0.3055,0.1534,0.607,0.2562,16000,4000,4

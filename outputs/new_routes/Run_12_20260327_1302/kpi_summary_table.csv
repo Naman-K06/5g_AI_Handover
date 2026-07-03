@@ -1,0 +1,7 @@
+KPI,3GPP_Baseline,AI_Optimised,Change_%
+Total Handovers,104,45,-56.7%
+Ping-Pong HOs,6,1,-83.3%
+HO Failures (HOF),0,11,+1100.0%
+Radio Link Failures,0,6,+600.0%
+Avg Reliability Score,1.000,0.777,-22.3%
+Avg HO Rate (HO/km),3.69,1.50,—
